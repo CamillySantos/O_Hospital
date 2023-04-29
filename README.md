@@ -7,9 +7,8 @@ Um pequeno hospital local busca desenvolver um novo sistema que atenda melhor à
 
 ![O hospital drawio](https://user-images.githubusercontent.com/105953740/235316805-5c706557-6cf6-430d-bfb8-3829b025d0ab.png)
 
-## Diagrama_2
+## Continuação
 
-O próximo  diagrama possui mais detalhes de cada entidade do diagrma anterior 
+O próximo  diagrama é uma versão mais detalhada de cada entidade do diagrama anterior
 
 ![O Hospital part 2 drawio](https://user-images.githubusercontent.com/105953740/235320141-129b9473-31d9-4673-a885-614b79d9b43d.png)
-
