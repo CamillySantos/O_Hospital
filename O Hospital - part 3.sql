@@ -240,9 +240,9 @@ CREATE TABLE `tipo_quarto` (
   `valor_diario` int(5)
 );
 
-INSERT INTO tipo_quarto (id_tipo, descricao, valor_diario) VALUES (1, 'Quarto Individual', 100.00);
-INSERT INTO tipo_quarto (id_tipo, descricao, valor_diario) VALUES (2, 'Quarto Compartilhado', 500.00);
-INSERT INTO tipo_quarto (id_tipo, descricao, valor_diario) VALUES (3, 'Quarto VIP', 200.00);
+INSERT INTO tipo_quarto (id_tipo, descricao, valor_diario) VALUES (1, 'Enfermaria', 100.00);
+INSERT INTO tipo_quarto (id_tipo, descricao, valor_diario) VALUES (2, 'Apartamento', 500.00);
+INSERT INTO tipo_quarto (id_tipo, descricao, valor_diario) VALUES (3, 'Quarto duplo', 200.00);
 
 
 CREATE TABLE `quarto` (
