@@ -75,4 +75,34 @@ Observe as seguintes atividades:
 
 - Os dados de tipo de quarto, convênio e especialidade são essenciais para a operação do sistema e, portanto, devem ser povoados assim que o sistema for instalado.
 
+## Parte 4 - Alterando o banco de dados
+
+
+Não... Não acabou... 
+
+Um banco de dados pode sofrer alterações ao longo da sua concepção e do seu desenvolvimento. Nesse momento devemos nos preparar para atualizar nossas estratégias.
+
+### Mãos a Obra. 
+
+Pensando no banco que já foi criado para o Projeto do Hospital, realize algumas alterações nas tabelas e nos dados usando comandos de atualização e exclusão:
+
+Crie um script que adicione uma coluna `“em_atividade”` para os médicos, indicando se ele ainda está atuando no hospital ou não. 
+
+Crie um script para atualizar ao menos dois médicos como inativos e os demais em atividade.
+
+```
+ALTER TABLE medico ADD em_atividade varchar(100);
+
+UPDATE medico SET em_atividade = 'Ativo' WHERE id_medico = 1;
+UPDATE medico SET em_atividade = 'Ativo' WHERE id_medico = 2;
+UPDATE medico SET em_atividade = 'Ativo' WHERE id_medico = 3;
+UPDATE medico SET em_atividade = 'Inativo' WHERE id_medico = 4;
+UPDATE medico SET em_atividade = 'Ativo' WHERE id_medico = 5;
+UPDATE medico SET em_atividade = 'Ativo' WHERE id_medico = 6;
+UPDATE medico SET em_atividade = 'Ativo' WHERE id_medico = 7;
+UPDATE medico SET em_atividade = 'Ativo' WHERE id_medico = 8;
+UPDATE medico SET em_atividade = 'Inativo' WHERE id_medico = 9;
+UPDATE medico SET em_atividade = 'Ativo' WHERE id_medico = 10;
+```
+
 
