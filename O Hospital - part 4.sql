@@ -8,10 +8,10 @@ CREATE TABLE `especialidade` (
 
 INSERT INTO especialidade (id_especialidade, nome_especialidade) VALUES (1 , 'Clinico Geral');
 INSERT INTO especialidade (id_especialidade, nome_especialidade) VALUES (2 , 'Dermatologista');
-INSERT INTO especialidade (id_especialidade, nome_especialidade) VALUES (3 , 'Oftalmologia');
+INSERT INTO especialidade (id_especialidade, nome_especialidade) VALUES (3 , 'Pediatra');
 INSERT INTO especialidade (id_especialidade, nome_especialidade) VALUES (4 , 'Ginecologista');
 INSERT INTO especialidade (id_especialidade, nome_especialidade) VALUES (5 , 'Ortopedista');
-INSERT INTO especialidade (id_especialidade, nome_especialidade) VALUES (6 , 'Psiquiatra');
+INSERT INTO especialidade (id_especialidade, nome_especialidade) VALUES (6 , 'Gastrenterologia');
 INSERT INTO especialidade (id_especialidade, nome_especialidade) VALUES (7 , 'Oncologista');
 
 
